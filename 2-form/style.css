@@ -1,0 +1,41 @@
+body {
+	font-family: "Open Sans", Georgia, sans-serif;
+}
+.container {
+	margin: 0 auto;
+}
+.form {
+	max-width: 550px;
+}
+.form_title {
+	font-size: 36px;
+	font-weight: 700;
+}
+.form_akk {
+	font-size: 18px;
+	color: #666666;
+}
+.form_akk-link{
+	color: #089FE0;
+}
+.input_text {
+	font-size: 16px;
+	font-style: italic;
+	background-color: #F5F5F5;
+	border: none;
+}
+
+.btn {
+	color: #FFFFFF;
+	background-color: #089FE0;
+	border: none;
+}
+
+.chekked {
+	color: #666666;
+	font-size: 14px;
+}
+
+.chekked_links {
+	color: #089FE0;
+}
