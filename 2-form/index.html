@@ -3,33 +3,36 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
 	<title>Форма</title>
 </head>
 <body>
-<h1>Регистрация</h1>
-<p>Уже есть аккаунт? <a href="#">Войти</a></p>
-<form action="#">
-	<div>
-		<label for="company">
-			<input type="text" placeholder="Ваша компания">
-		</label>
-	</div>
-	<div>
-		<label for="name">
-			<input type="text" placeholder="Имя фамилия">
-		</label>
-	</div>
-	<div>
-		<label for="email">
-			<input type="email" name="email" id="email" placeholder="E-mail">
-		</label>
-	</div>
+	<div class="container">
+			<h1 class="form_title">Регистрация</h1>
+			<p class="form_akk">Уже есть аккаунт? <a class="form_akk-link" href="#">Войти</a></p>
+		<form class="form" action="#">
+			<div>
+				<label for="company">
+					<input class="input_text" type="text" placeholder="Ваша компания">
+				</label>
+			</div>
+			<div>
+				<label for="name">
+					<input class="input_text"  type="text" placeholder="Имя фамилия">
+				</label>
+			</div>
+			<div>
+				<label for="email">
+					<input class="input_text"  type="email" name="email" id="email" placeholder="E-mail">
+				</label>
+			</div>
 
-	<button type="submit">Зарегистрироваться <img src="" alt=""></button>
-	<div>
-		<input type="checkbox" name="condition" id="condition">
-		<label for="condition">Я прочитал и принимаю <a href="#">Условия использования</a></label>
+			<button class="btn" type="submit">Зарегистрироваться <img src="" alt=""></button>
+			<div>
+				<input type="checkbox" name="condition" id="condition">
+				<label class="chekked" for="condition">Я прочитал и принимаю <a class="chekked_links" href="#">Условия использования</a></label>
+			</div>
+		</form>
 	</div>
-</form>
 </body>
 </html>
